@@ -1,7 +1,7 @@
 $lt-gray: #DDD;
 $background-dark: #512DA8;
 $background-light: #9575CD;
-$background-plae: #D1C4E9;
+$background-pale: #D1C4E9;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -22,7 +22,7 @@ $carousel-item-height: 300px;
 }
 
 .footer {
-    background-color: $background-plae;
+    background-color: $background-pale;
     @include zero-margin(20px, 0px);
 }
 
@@ -83,4 +83,17 @@ body {
     right: 0;
     position: absolute;
     bottom: 0;
+}
+
+.modal-header {
+    background: $background-dark;
+    color: floralwhite;
+
+    button {
+        color: floralwhite;
+    }
+}
+
+.modal-body {
+    background: $background-pale;
 }

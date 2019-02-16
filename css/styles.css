@@ -56,4 +56,19 @@ body {
 #carouselButton {
   right: 0;
   position: absolute;
-  bottom: 0; }
+  bottom: 0;
+  z-index: 20;
+}
+
+.modal-header {
+    background: #512DA8;
+    color: floralwhite;
+}
+
+.modal-body {
+    background: #D1C4E9;
+}
+
+.modal-header button {
+    color: floralwhite;
+}
